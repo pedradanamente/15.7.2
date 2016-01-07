@@ -1,0 +1,38 @@
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    /* src fallbacks ommitted for brevity */
+    font-weight: 200;
+    font-style: normal;
+}
+/* Light Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    /* src fallbacks ommitted for brevity */
+    font-weight: 200;
+    font-style: italic;
+}
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    /* src fallbacks ommitted for brevity */
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body { font-family:"Open Sans","Arial","Fira mono" !important;font-size:12px; }
+.logoimage {max-height:240px;max-width:240px;border-radius:150px;box-shadow: 1px 1px 150px #FFF;}
+.fl {float:left;}
+.fr {float:right;}
+.limao {padding:25px !important;color:#FFF;font-size:16px;}
+.limao:hover{background-color:rgba(0, 0, 0, 0.36);cursor: pointer;text-decoration: none;}
+.limao a:hover {color:gold;}
+.p-bloco {font-size:14px;}
+.rodape {font-size:14px;}
+a {color:#CCC;text-decoration: none;}
+a:visited {}
+a:hover {text-decoration: none;}
